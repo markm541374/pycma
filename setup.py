@@ -20,17 +20,17 @@ try:
 except IOError:  # file not found
     pass
 
-setup(name="cma",
+setup(name="cma_mod",
       long_description=long_description,  # __doc__, # can be used in the cma.py file
       version=__version__.split()[0],
       description="CMA-ES, Covariance Matrix Adaptation " +
                   "Evolution Strategy for non-linear numerical " +
-                  "optimization in Python",
+                  "optimization in Python\n\n modified for prallel evaluations",
       author="Nikolaus Hansen",
       author_email="authors firstname.lastname at inria dot fr",
       maintainer="Nikolaus Hansen",
       maintainer_email="authors_firstname.lastname@inria.fr",
-      url="https://github.com/CMA-ES/pycma",
+      url="https://github.com/markm541374/pycma",
       # license="MIT",
       license="BSD",
       classifiers = [
