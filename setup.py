@@ -20,7 +20,7 @@ try:
 except IOError:  # file not found
     pass
 
-setup(name="cma_mod",
+setup(name="cmamod",
       long_description=long_description,  # __doc__, # can be used in the cma.py file
       version=__version__.split()[0],
       description="CMA-ES, Covariance Matrix Adaptation " +
