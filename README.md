@@ -1,4 +1,5 @@
 # pycma
+## Modified for parallel evaluations
 
 A Python implementation of CMA-ES and a few related numerical optimization tools.
 
